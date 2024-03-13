@@ -6,12 +6,6 @@ var timeout;
 
 function firstPageAmin(){
     var tl = gsap.timeline();
-    tl.from('#loding-page', {
-        y: '100%',
-        ease: Expo.easeInOut,
-        display: 'block',
-        duration: 4
-    })
     tl.from('header',{
         y: '-10',
         opacity: 0,
